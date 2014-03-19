@@ -1,3 +1,0 @@
-#import tables to mysql database
-
-mysql -u username -p  databasename  < path/example.sql

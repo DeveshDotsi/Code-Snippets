@@ -1,0 +1,4 @@
+To change Keyboard temporary (until reboot)
+Run the following command
+
+# loadkeys it

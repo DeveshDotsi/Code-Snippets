@@ -1,16 +1,23 @@
 To change Keyboard temporary (until reboot)
 Run the following command
-
 # loadkeys it
 
 
 
-ubuntu change ipaddress
-
+Ubuntu change ipaddress
 sudo vi /etc/network/interfaces
 auto eth0
 iface eth0 inet static
-address 192.168.2.1
+address  192.168.2.1
 netmask 255.255.255.0
-network 192.168.2.0
-broadcast 192.168.2.255
+gateway 192.168.2.0
+dns-nameservers 8.8.8.8
+
+
+
+
+
+Replace Word
+sed -i 's/old-word/new-word/g' *.txt
+
+-i >>  edit files in place (makes backup if extension supplied)

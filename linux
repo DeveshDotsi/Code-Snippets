@@ -15,9 +15,11 @@ dns-nameservers 8.8.8.8
 
 
 
-
-
 Replace Word
 sed -i 's/old-word/new-word/g' *.txt
 
 -i >>  edit files in place (makes backup if extension supplied)
+
+
+Ubuntu enable root account
+sudo passwd root
